@@ -21,3 +21,28 @@
   width: 62.56px;
   height: 16.02px;
 }
+
+.gpt3__navbar-links_containers {
+  display: flex;
+  flex-direction: row;
+}
+
+.gpt3__navbar-sign {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.gpt3__navbar-links_containers p,
+.gpt3__navbar-sign p,
+.gpt__navbar-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
