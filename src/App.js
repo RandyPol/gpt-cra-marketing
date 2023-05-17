@@ -7,7 +7,7 @@ import {
   Header,
 } from './containers'
 
-import { CTA, Brand, Feature, Navbar } from './components'
+import { CTA, Brand, Navbar } from './components'
 
 const App = () => {
   return (
@@ -16,6 +16,13 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   )
 }
